@@ -1,14 +1,16 @@
+import CardProductBook from "../../../../components/CardProductBook"
+
 
 
 const Books = () => {
   return (
     <main className="ds-container">
-        <ul>
-            <li>Livros</li>
-            <li>Livros</li>
-            <li>Livros</li>
-            <li>Livros</li>
-        </ul>
+    <div className="ds-card-container-geral">
+       <CardProductBook/>
+       <CardProductBook/>
+       <CardProductBook/>
+       <CardProductBook/>
+       </div>
     </main>
   )
 }

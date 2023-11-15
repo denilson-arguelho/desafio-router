@@ -24,3 +24,9 @@ body,html{
   max-width: 960px;
   margin: 0 auto  ;
 }
+
+.ds-card-container-geral{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,  minmax(225px, 1fr));
+  gap: 20px;
+}

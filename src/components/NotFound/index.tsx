@@ -1,11 +1,14 @@
-
+import Header from "../Header";
 
 const NotFound = () => {
   return (
-    <div>
+    <>
+      <Header />
+      <main className="ds-container">
         <h1>Ops...Página Não encontrada!</h1>
-    </div>
-  )
-}
+      </main>
+    </>
+  );
+};
 
-export default NotFound
+export default NotFound;

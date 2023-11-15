@@ -1,14 +1,16 @@
 
+import CardProductEletronics from "../../../../components/CardProductEletronics"
+
 
 const Eltronics = () => {
   return (
     <main className="ds-container">
-        <ul>
-            <li>Eltronicos</li>
-            <li>Eltronicos</li>
-            <li>Eltronicos</li>
-            <li>Eltronicos</li>
-        </ul>
+        <div className="ds-card-container-geral">
+       <CardProductEletronics/>
+       <CardProductEletronics/>
+       <CardProductEletronics/>
+       <CardProductEletronics/>
+       </div>
     </main>
   )
 }

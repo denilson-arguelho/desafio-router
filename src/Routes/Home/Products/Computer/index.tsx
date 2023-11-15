@@ -1,14 +1,17 @@
+import CardProductComputer from '../../../../components/CardProductComputer'
+
+
 
 
 const Computer = () => {
   return (
     <main className="ds-container">
-        <ul>
-            <li>Computadores</li>
-            <li>Computadores</li>
-            <li>Computadores</li>
-            <li>Computadores</li>
-        </ul>
+       <div className="ds-card-container-geral">
+       <CardProductComputer/>
+       <CardProductComputer/>
+       <CardProductComputer/>
+       <CardProductComputer/>
+       </div>
     </main>
   )
 }
