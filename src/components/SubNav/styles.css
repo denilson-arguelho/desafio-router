@@ -1,0 +1,26 @@
+
+  
+
+.ds-container-subnav-links{
+    background-color: var( --color-bg-subnav);
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.ds-container-subnav-links > a{
+     padding-right: 20px;
+     text-decoration: none;
+     font-size: 16px;
+     color: var(--color-fonte-black);
+}
+
+.menu-item{
+    font-weight: 400;
+}
+.menu-active{
+    font-weight: 700;
+}
