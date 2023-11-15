@@ -6,7 +6,7 @@ import { ProductDTO } from "../../models/Product";
 
 
  const product: ProductDTO ={
-    name: "Computador Gamer",
+    name: "Livro React",
     imgUrl: "https://cdn.pixabay.com/photo/2018/01/17/18/43/book-3088777_1280.png"
  }
 
